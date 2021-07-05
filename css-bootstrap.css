@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+transition:  all .3s linear;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+   
+    background-color: #131313;
+    padding: 1rem 8rem;
+z-index: 1000;
+
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.navbar-nav .nav-item .nav-link{
+color:#ffff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+
+}
+.navbar-nav .nav-item .nav-link:hover,
+#col > ul > li:nth-child(n) > a:active
+{
+
+    color: #00bf85;
+}
+
+
+.dabin{  
+
+
+color:#000;
+border-radius: 30px;
+
+}
+
+.mid{
+height: 100vh;
+    width: 100%;
+    overflow: hidden; 
+    direction: rtl;
+}
+
+
+.mid video{
+
+    height: 100vh;
+    width: 100%;
+    pointer-events:none;/* lo awaya agar linkt habe natane cliky bkay */
+    object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+ .mid .hero{
+
+position: relative;
+}
+
+.mid .hero p{
+
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+
+
+ }
+
+    .mid .hero a {
+text-decoration: none;
+
+        background: #00BF85;
+        font-weight: 600;
+        padding:0.4rem 1.4rem;
+border-radius: 30px;
+    }
+    .mid .hero a:hover{
+
+        background:#fff;
+    }
+
+    .about{
+        background: #000;
+        direction: rtl;
+    }
+
+ .about .text{
+
+        display: flex;
+        flex-direction:column ;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    } 
+.about .text h6{
+color:#00bf7f;
+font-weight: 800;
+font-size: 1rem;
+letter-spacing: 2px;
+
+}
+ .about .text h2{
+    color:#f7f5f4;
+    font-weight: 700;
+    font-size: 2.8rem;
+  
+    
+    }
+    .about .text p{
+        color:#f7f5f4;
+        font-weight: 400;
+        font-size: 1.1rem;
+      letter-spacing: 0.5px;
+    }
+    .about .text a {
+    
+    text-decoration: none;
+
+    background: #00BF85;
+    font-weight: 600;
+    padding:0.4rem 1.4rem;
+border-radius: 30px;
+    }
+    .discovery{
+        direction: rtl;
+    }
+    .discovery .text{
+
+        display: flex;
+        flex-direction:column ;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: auto;
+    } 
+    .discovery .text h6{
+color:#00bf7f;
+font-weight: 800;
+font-size: 1rem;
+letter-spacing: 2px;
+
+}
+.discovery .text h2{
+    color:#111;
+    font-weight: 700;
+    font-size: 2.8rem;
+  direction: rtl;
+    
+    }
+   .discovery .text p{
+      
+        font-weight: 400;
+        font-size: 1.1rem;
+      letter-spacing: 0.5px;
+    }
+    .discovery .text a{
+    text-decoration: none;
+color:#fff;
+    background:#000;
+    font-weight: 500;
+    padding:0.4rem 1.4rem;
+border-radius: 30px;
+    }
+
+    .service{
+
+        direction: rtl;
+        background: #000;
+    }
+
+
+    .service .one{
+        background:#fff;
+      
+        display: flex;
+        flex-direction:column ;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+     
+        padding:2rem 1.5rem ;
+        border-radius: 7px;
+    }
+
+.sign{
+    direction: rtl;
+}
+
+.sign .text{
+
+    display: flex;
+    flex-direction:column ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+    .sign .text a{
+        text-decoration: none;
+
+        background: #000;
+        font-weight: 600;
+        padding:0.4rem 1.4rem;
+    border-radius: 30px;
+   
+
+        }
+
+.sign .text h6  {
+        color:#00bf7f;
+font-weight: 800;
+font-size: 1rem;
+letter-spacing: 2px;
+}
+
+body footer{
+
+background: #000 !important;
+}
+
+body > footer > ul > li:nth-child(2) > a{
+    text-decoration: none;
+
+    background: #00BF85;
+    font-weight: 600;
+    padding:0.4rem 1.4rem;
+border-radius: 30px;
+        }
+
+@media  screen and (max-width:998px){
+
+.navbar{
+
+    padding: 1rem;
+}
+.collapse .navbar-nav .nav-item {
+padding: 0.8rem;
+
+}
+
+.mid .hero h2{
+
+    font-size: 2.5rem;
+    letter-spacing: 0.2px;
+}
+.mid .hero p{
+
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+
+
+ }
+
+    .mid .hero a {
+font-size:0.9rem;
+    }
+}
